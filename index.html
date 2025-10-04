@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css" />
+    
+
+
+    <title>Our Professional Profiles</title>
+</head>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const acc = document.querySelectorAll(".accordion-btn");
+      acc.forEach(btn => {
+        btn.addEventListener("click", function () {
+          this.classList.toggle("active");
+          const panel = this.nextElementSibling;
+          panel.style.display = panel.style.display === "block" ? "none" : "block";
+        });
+      });
+    });
+
+
+  function toggleDescription(card) {
+    card.classList.toggle('expanded');
+  }
+</script>
+
+  </script>
+
+<body>
+    <header>
+        <h1>Are you Hiring?</h1>
+    </header>
+    
+    <h2 class="center">Meet us!</h2>
+    <div class="intro-section">
+
+  <p class="center">We’re <strong>Business Information Systems graduates</strong> from <strong>ATU Galway</strong></p>   <p class="center"> ready to be part of your team ! </p>
+
+    <div class="main">
+        <div class="image-container">
+            <img src="CV/radkanoback.png" alt="Radka" width="300" height="380" class="bordered-image">
+            <div class="overlay">
+                <a href="radka.html" style="color: rgb(255, 255, 255); text-decoration: none;">Radka</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="CV/rebekanoback.png" alt="Rebeka" width="300" height="380" class="bordered-image">
+            <div class="overlay">
+                <a href="rebeka.html" style="color: rgb(255, 255, 255); text-decoration: none;">Rebeka</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <!-- Radka's CV Section -->
+        <div class="resume">
+            <p>RADKA</p>
+            <a href="CV/CV-Radka Kotuľáková EN (1).pdf" download>Download CV</a><br>
+            <a href="https://www.linkedin.com/in/radka-kotuľáková-791a62238" target="_blank">View LinkedIn</a>
+        </div>
+    
+
+        <!-- Rebeka's CV Section -->
+        <div class="resume">
+            <p>REBEKA</p>
+            <a href="CV/CV- Rebeka Kotuľáková EN (1).pdf" download>Download CV</a><br>
+            <a href="https://www.linkedin.com/in/rebeka-kotuľáková-b9ab5b238" >View LinkedIn</a>
+        </div>
+    </div>
+
+
+
+  <div class="accordion">
+    <button class="accordion-btn">🎓 Who Are We?</button>
+    <div class="accordion-panel">
+      <p> Bachelor of Science (Ordinary) in Business Information Systems (Level 7- NFQ), Atlantic Technological University, Galway 🍀</p>
+    </div>
+
+    <button class="accordion-btn">📍 Where Are We?</button>
+    <div class="accordion-panel">
+      <p>Based in Galway, Ireland </p>
+    </div>
+
+    <button class="accordion-btn">💼 What Are We Looking For?</button>
+    <div class="accordion-panel">
+      <ul>
+      
+        <li>🚀 Opportunities to shine and grow</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">🧠 What Do We Love?</button>
+    <div class="accordion-panel">
+      <ul>
+        <li>📊 Data Analysis</li>
+        <li>📈 Business Analysis</li>
+        <li>💻 Web Development</li>
+        <li>📅 Project Management</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">🚀 Ready to Launch?</button>
+    <div class="accordion-panel">
+      <p>We’re available from <strong>September 2025</strong> onward. Let’s build something brilliant together! ✨</p>
+  
+  </div>
+</div>
+        <div class="skills-section">
+  <h2 class="center">🛠️ Click to Discover our Superpowers</h2>
+<div class="skills-container">
+  <div class="skill-card" onclick="toggleDescription(this)">
+    📊 Data Analysis
+    <div class="skill-description">Applied during placement at Boston Scientific to clean, structure, and analyze large datasets using Excel and Power BI.</div>
+  </div>
+
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🧮 Excel & Power BI
+    <div class="skill-description">Used advanced Excel (macros, VBA) and Power BI for automation and reporting in both academic and professional settings.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🗃️ SQL & Databases
+    <div class="skill-description">Learned SQL through coursework and applied it to query structured data during data analytics projects.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    📂 Data Cleaning
+    <div class="skill-description">Performed data cleaning and transformation tasks at Boston Scientific to prepare data for analysis and reporting.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🧾 Reporting & Dashboards
+    <div class="skill-description">Created automated dashboards in Power BI and Excel to track performance and share insights with stakeholders.</div>
+  </div>
+    <div class="skill-card" onclick="toggleDescription(this)">
+    📈 Business Intelligence
+    <div class="skill-description">Built dashboards and reports in Power BI to support decision-making and visualize KPIs during internship.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🧠 Critical Thinking
+    <div class="skill-description">Used to troubleshoot data issues and improve workflows during my internship and hospitality roles.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🧩 Problem Solving
+    <div class="skill-description">Resolved customer issues and optimized service processes in hospitality; applied structured problem-solving in tech projects.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🧍‍♂️ Decision Making
+    <div class="skill-description">Made quick, effective decisions in high-pressure hospitality environments and during project development.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🔍 Attention to Detail
+    <div class="skill-description">Ensured accuracy in data reports and maintained high service standards in hospitality and tech roles.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🤝 Customer Service
+    <div class="skill-description">8 years of experience in hospitality, consistently delivering excellent service and managing guest relations.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🍽️ Hospitality
+    <div class="skill-description">Worked in various roles over 8 years including team lead and trainer, gaining deep experience in operations.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🗣️ Communication
+    <div class="skill-description">Led training sessions, coordinated teams, and presented project outcomes clearly .</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    📅 Time Management
+    <div class="skill-description">Balanced full-time work with academic studies and project deadlines, consistently delivering on time.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    👥 Teamwork
+    <div class="skill-description">Collaborated with cross-functional teams in both hospitality and tech environments to achieve shared goals.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🛠️ Conflict Resolution
+    <div class="skill-description">Handled guest complaints and team conflicts professionally, ensuring positive outcomes and team harmony.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    🔄 Adaptability
+    <div class="skill-description">Quickly adapted to new tools, roles, and environments in both hospitality and tech internships.</div>
+  </div>
+  <div class="skill-card" onclick="toggleDescription(this)">
+    📋 Multitasking
+    <div class="skill-description">Managed multiple responsibilities simultaneously in fast-paced hospitality settings and during project work.</div>
+  </div>
+</div>
+
+
+</div>
+
+
+    </div>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rebeka Kotuľáková - Resume</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #2c2c2c;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+
+    .contact-info {
+      font-size: 0.95em;
+      margin-top: 10px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contact-info i,
+    .contact-info .material-icons {
+      margin-right: 8px;
+    }
+
+     .social-links a {
+      margin: 0 10px;
+      font-size: 1.2em;
+      color: #f0f0f0;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #5a5af1;
+    }
+
+    .accordion {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: #2c2c2c;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .accordion-btn {
+      background-color: #5a5af1;
+      color: white;
+      cursor: pointer;
+      padding: 15px 20px;
+      width: 100%;
+      text-align: left;
+      border:solid,rgb(34, 34, 34);
+      border-width: 2px;
+      outline: none;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .accordion-btn:hover {
+      background-color: #4a4ae0;
+    }
+
+    .accordion-panel {
+      padding: 0 20px;
+      background-color: #383838;
+      color: white;
+      display: none;
+      overflow: hidden;
+    }
+
+    .accordion-panel p,
+    .accordion-panel ul {
+      margin: 15px 0;
+    }
+
+    .accordion-panel ul {
+      padding-left: 20px;
+    }
+
+    .accordion-panel ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      background: #2c2c2c;
+      border-top: 1px solid #444;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #2c2c2c;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      color: #fff;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #444;
+      color: #fff;
+    }
+
+    .contact-form button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #5a5af1;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #4a4ae0;
+    }
+
+    .back-arrow {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-arrow:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+    .download-btn {
+      display: inline-block;
+      background-color: #5a5af1;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .download-btn:hover {
+      background-color: #4a4ae0;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <img src="CV/rebekanoback.png" alt="Rebeka Kotuľáková" class="profile-pic">
+    <div class="header-info">
+      <h1>Rebeka Kotuľáková</h1>
+      <p>Business Information Systems Graduate</p>
+      <div class="contact-info">
+        <p><span class="material-icons">phone</span> +353 83 200 8753</p>
+        <p><span class="material-icons">email</span> <a href="mailto:rebekakotulakova@gmail.com" style="color: #f0f0f0;">rebekakotulakova@gmail.com</a></p>
+        <p><span class="material-icons">location_on</span> Galway, Ireland</p>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rebeka-kotuľáková-b9ab5b238" target="_blank"><i class="fab fa-linkedin"></i> </a>
+        <a href="https://github.com/rebekakotulak" target="_blank"><i class="fab fa-github"></i> </a>
+      </div>
+        <a href="CV/CV- Rebeka Kotuľáková EN (1).pdf" download class="download-btn">📄 Download Resume</a>
+    </div>
+  </div>
+</header>
+<a href="index.html" class="back-arrow" title="Back">
+  ← Go BACK
+</a>
+<div class="accordion">
+  <button class="accordion-btn">👤 Profile</button>
+  <div class="accordion-panel">
+    <p>Business Information Systems graduate with hands-on experience in data analysis, digital tools, and process improvement from an internship at Boston Scientific. Skilled in Excel, Power BI, SAP, and web development. Strong background in time management, task prioritization, and adapting quickly in fast-paced settings. My 8 years in hospitality have shaped a service-driven mindset, now combined with a solid foundation in technology. Currently pursuing Level 8 of my studies, focusing on data analytics and technologies.</p>
+  </div>
+
+  <button class="accordion-btn">🛠️ Skills</button>
+  <div class="accordion-panel">
+    <h4>Technical & Analytical Skills</h4>
+    <ul>
+      <li><strong>DEVELOPMENT:</strong>  HTML, CSS, JavaScript, Python, Responsive Web Design</li>
+       <li><strong>DATA ANALYTICS:</strong> <br>Power BI (dashboard creation, data visualization, large dataset handling),<br> Advanced Excel (macros, VBA scripting, data modeling), <br>Qlik apps, SQL (data querying and relational database understanding)</li>
+       <li><strong>SYSTEMS & TOOLS:</strong> SAP, Rapid Response (RR), Resource Planning System (RPS)</li>
+      <li><strong>SOFTWARE PROFICIENCY:</strong><br> Microsoft Office Suite (Excel, Word, PowerPoint),<br> Microsoft Power Platform (Power BI, PowerApps, Power Automate),<br> Adobe Photoshop, Premiere Pro, InDesign</li>
+       <li><strong>AUTOMATIZATION:</strong> Power Automate, PowerApps</li>
+    </ul>
+    <h4>Soft Skills</h4>
+<ul>
+  <li>Project Planning & Scheduling</li>
+  <li>Business Process Understanding (Manufacturing & Supply Chain)</li>
+  <li>Strong communication and interpersonal skills</li>
+  <li>Confident in presenting data and contributing to team discussions</li>
+  <li>Leadership and team collaboration</li>
+  <li>Time management and task prioritization</li>
+  <li>Attention to detail and accuracy</li>
+  <li>Adaptability and eagerness to learn</li>
+  <li>Problem-solving and critical thinking</li>
+</ul>
+
+  </div>
+
+  <button class="accordion-btn">🎓 Education</button>
+  <div class="accordion-panel">
+    <ul>
+      <li><strong>Bachelor of Science in Business Information Systems</strong> - Atlantic Technological University, Galway, Ireland Level 7 (Completed) 2022-2025
+Level 8 (Starting) September 2025</li> <p>Gained hands-on experience in data analytics, web development, systems design, and business process improvement—blending business insight with digital skills for a tech-driven career.</p> <hr>
+      <li><strong>Professional Diploma in Hotel Management and hospitality</strong> - Hotel Academy, Prešov, Slovakia (2017-2022)</li> <p>Completed a 5-year vocational program in hospitality with practical training in hotel operations, tourism, and business, including real-world placement experience.</p>
+    </ul>
+  </div>
+
+  <button class="accordion-btn">💼 Work Experience</button>
+  <div class="accordion-panel">
+    <ul>
+      <li><strong>Co-Op to the Associate Production Planning Manager</strong> - Boston Scientific, Galway | Jan 2025 - Aug 2025 
+</li>
+<p>Supported the PCT and CSS Planning Team with data-driven planning and scheduling tasks across multiple product lines (Wolverine, 2CM, Express LD).<br>
+Gained hands-on experience with tools such as Rapid Response (RR), Resource Planning System (RPS), SAP, and Qlik apps.<br>
+Created and maintained build plans and production schedules, ensuring alignment with resource availability and demand.<br>
+Identified and prevented planning errors before execution, helping avoid production delays and improving overall efficiency.<br>
+Recognized by management for outstanding performance<br>
+Contributed to a collaborative and inclusive team culture</p><hr>
+
+
+      <li><strong>Food and Beverage Assistant</strong> - Knock House Hotel, Knock, Ireland (2022-2024)</li> 
+      <p>Led daily operations, managing service, and customer interactions.<br>
+Trained and supervised staff, improving workflow and team performance.<br>
+Handled large groups and resolved complaints to ensure high service standards.<br>
+Streamlined processes and coordinated with kitchen and bar teams.<br>
+Recognized for adaptability, communication, and delivering practical solutions.</p><hr>
+
+      <li><strong>Commis Chef</strong> - La Storia Restaurant, France (2023)</li>
+       <p>Managed the preparation and presentation of starters and desserts, ensuring high quality and consistency.<br>
+ Conducted thorough preparations for all menu items, maintaining an organized and efficient workspace.<br>
+Collaborated with kitchen staff to support overall kitchen operations, contributing to a smooth and efficient service.</p><hr>
+
+      <li><strong>Dance and Choreography Instructor and Event Coordinator</strong> - Art Studio S.O.M One, Slovakia (2018-2022)</li>
+      <p>Led classes and events, managing large groups with confidence.<br>
+Organized performances and competitions with strong participant engagement.<br>
+Trained and mentored students, showing adaptability and leadership.<br>
+Recognized for clear communication and calm under pressure.</p>
+    </ul>
+  </div>
+
+  <button class="accordion-btn">📁 Projects</button>
+  <div class="accordion-panel">
+    <ul>
+      <li><strong>Award-Winning Recipe Website</strong> - Best Project of 2024, Atlantic Technological University, Galway (Feb 2024 - Apr 2024)</li> 
+      <p>Developed a visually striking, highly functional recipe website that won Best Project of 2024 at ATU Galway.<br>
+Key features included a search bar, dropdown menu, portion counter, animations, social media buttons, rating system, and video section.<br>
+Demonstrated advanced web development skills and creativity.</p> <hr>
+      
+<li><strong>Wealth Wise – Personal Finance Platform</strong> - (Jan 2025 - Apr 2025)</li> 
+      <p>Built a modern web platform based on an Excel to manage finances.<br>
+Key Features: Excel integration, spending and savings tracking, financial
+       goal monitoring, and data visualization.<br>
+Achievements: Achieved a 30% reduction in personal expenses and data structuring skills.</p><hr>
+
+      <li><strong>Recipe Database Excel File</strong> - Excel-Based Data Management Tool (2024)</li>
+      <p>Designed a comprehensive database categorizing recipes, incorporating advanced formulas for efficient search by ingredients.</p>
+    </ul>
+  </div>
+
+  <button class="accordion-btn">📜 Certifications</button>
+  <div class="accordion-panel">
+    <ul>
+      <li>Microsoft Office Specialist: Microsoft Excel Expert (Office 2019)</li>
+      <li>Microsoft Office Specialist: Excel Associate (Office 2019)</li>
+      <li>Microsoft Security, Compliance, and Identity Fundamentals</li>
+      <li>Data Analytics Essentials - Cisco</li>
+      <li>Data Science Foundations - Great Learning Academy</li>
+    </ul>
+  </div>
+
+  <button class="accordion-btn">🌍 Languages</button>
+  <div class="accordion-panel">
+    <ul>
+      <li>Slovak (Native)</li><li>English (Fluent)</li><li>French (Intermediate)</li>
+    </ul>
+  </div>
+
+  <button class="accordion-btn">📞 References</button>
+  <div class="accordion-panel">
+    <p>Fergal Colleran  +353 87 226 5710</p>
+    <p>Svetlana Ojis  +353 85 821 9828</p>
+  </div>
+</div>
+
+ <div class="contact-form">
+    <h2>📬 Contact Me</h2>
+    <form action="https://formsubmit.co/rebekakotulakova@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+      <label for="name">Your Name and Contact Info</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+<footer>
+  <p>&copy; 2024 Rebeka Kotuľáková. All rights reserved.</p>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const acc = document.querySelectorAll(".accordion-btn");
+    acc.forEach(btn => {
+      btn.addEventListener("click", function () {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === "block" ? "none" : "block";
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
